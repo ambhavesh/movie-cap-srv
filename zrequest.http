@@ -1,0 +1,25 @@
+GET http://localhost:4004/srv/MovieSet
+
+###
+
+POST http://localhost:4004/srv/MovieSet
+Content-Type: application/json
+
+{
+    "name":"Dangal",
+    "releasedDate":"2016-12-23",
+    "directedBy_id":"6cd2bf72-c684-428b-b975-cea39c745896"
+}
+
+###
+
+GET http://localhost:4004/srv/DirectorSet
+
+###
+
+POST http://localhost:4004/srv/DirectorSet
+Content-Type: application/json
+
+{
+    "name":"Nitesh Tiwari"
+}
